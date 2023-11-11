@@ -52,9 +52,9 @@ def root():
     return "Welcome to clinics microservice"
 
 
-@app.get('/dogs', response_model=list[Dog])
+@app.get('/dogs', response_model=List[Dog])
 def get_dogs():
-    return list(dogs_db.values())
+    return List(dogs_db.values())
 
 
 @app.get('/dogs/{dog_id}', response_model=Dog)
