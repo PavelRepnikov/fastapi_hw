@@ -1,2 +1,4 @@
 # fastapi_hw
-Microservice for hw
+Micro service for vet clinic
+
+just a small homework thingy :)
